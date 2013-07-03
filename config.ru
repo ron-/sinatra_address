@@ -1,4 +1,3 @@
-$: << File.dirname(__FILE__)
-require 'address-book'
+require './address-book'
 
 run AddressBook.new
